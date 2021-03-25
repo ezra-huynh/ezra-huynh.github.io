@@ -23,7 +23,7 @@ header{
 }
 
 #page-container {
-	min-height: 100%;
+	 min-height: 100%;
   	margin-bottom: -20px; 
 }
 
@@ -35,7 +35,7 @@ header{
 footer, #page-container:after {
 	height: 20px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 150px
 }
 
 .nav_links{
@@ -48,13 +48,31 @@ footer, #page-container:after {
 }
 
 .form {
-    min-height: 350px;
+    min-height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.form > div {
-  margin: 6px;
+
+.field {
+  margin: 10px;
+  width: 150px;
 }
+
+
+.container {
+  height: 50px;
+  position: relative;
+}
+
+/*.button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right:48%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}*/
+
