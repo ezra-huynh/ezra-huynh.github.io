@@ -9,8 +9,8 @@ body {
   	padding: 0;
   	font-size: 16pt; 
   	font-family: 'IM Fell DW Pica', serif;
-	background-color: #ffffff;
-    background-image: url('../img/rain.gif');
+	   background-color: #ffffff;
+/*    background-image: url('../img/rain.gif');*/
     background-position: center top;
     background-size: auto;
     background-repeat: repeat;
@@ -30,7 +30,7 @@ header{
 
 #page-container {
 	min-height: 100%;
-  	margin-bottom: -20px; 
+  margin-bottom: -20px; 
 }
 
 #page-container:after {
@@ -45,7 +45,7 @@ footer, #page-container:after {
 }
 
 .home {
-	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	border-width: 1px;
 	margin-left: 70px;
 	margin-right: 70px;
 	text-align: center;
@@ -120,8 +120,8 @@ footer, #page-container:after {
  }
 
 .now {
-    color: #629B63;
-    border-bottom: 2px solid #629B63; 
+    color: #3D613D;
+    text-transform: uppercase; 
 }
 
 a:link {
