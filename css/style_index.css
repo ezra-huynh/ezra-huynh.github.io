@@ -75,7 +75,7 @@ footer, #page-container:after {
 }
 
 #image1:hover {
-	width: 250px;
+	opacity: 0.75;
 }
 
 #image2:hover {
@@ -103,10 +103,14 @@ footer, #page-container:after {
 @keyframes fadeIn {
   from { 
     opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
 
   to {
     opacity: 1;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -114,4 +118,5 @@ footer, #page-container:after {
   opacity: 0; 
   animation: fadeIn 2s ease-in-out 0s forwards;
  }
+
 
