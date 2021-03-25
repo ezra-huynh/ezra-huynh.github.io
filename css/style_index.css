@@ -71,11 +71,11 @@ footer, #page-container:after {
 .item
 {
 	margin: 10px;
-  	width: 200px;
+  width: 200px;
 }
 
 #image1:hover {
-	opacity: 0.75;
+	width: 250px;
 }
 
 #image2:hover {
