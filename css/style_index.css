@@ -119,4 +119,25 @@ footer, #page-container:after {
   animation: fadeIn 2s ease-in-out 0s forwards;
  }
 
+.now {
+    color: #629B63;
+    border-bottom: 2px solid #629B63; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #629B63;
+}
+
+a:active {
+  text-decoration: none;
+}
 
