@@ -70,27 +70,31 @@ footer, #page-container:after {
 	font-size: 13px;
 }
 
-.now {
-    color: #3D613D;
-    text-transform: uppercase; 
-}
-
-.home {
-  text-align: center;
-}
-
 a:link {
   text-decoration: none;
+  color: #000000;
 }
 
 a:visited {
   text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
   text-decoration: none;
   color: #3D613D;
+}
 
 a:active {
   text-decoration: none;
+  color: #000000;
 }
+
+.now {
+  color: #3D613D !important; 
+  text-transform: uppercase; 
+}
+.home {
+  text-align: center;
+}
+

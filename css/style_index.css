@@ -119,17 +119,16 @@ footer, #page-container:after {
   animation: fadeIn 2s ease-in-out 0s forwards;
  }
 
-.now {
-    color: #3D613D;
-    text-transform: uppercase; 
-}
+
 
 a:link {
   text-decoration: none;
+  color: #000000;
 }
 
 a:visited {
   text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
@@ -139,5 +138,10 @@ a:hover {
 
 a:active {
   text-decoration: none;
+  color: #000000;
 }
 
+.now {
+  color: #3D613D !important; 
+  text-transform: uppercase; 
+}
