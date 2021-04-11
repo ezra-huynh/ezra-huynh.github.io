@@ -27,6 +27,31 @@ header{
 	align-items: center;
 }
 
+.skip a{
+
+  background: white;
+  left: 0;
+  padding: 7px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+
+  /*Your code here*/
+  position: absolute;
+  top: -50px;
+}
+
+.skip a:focus {
+  position: absolute;
+  top: 10px;
+}
+
+
+*:focus {
+  border-top: dashed 1px;
+  border-bottom: dashed 1px;
+}
+
 #page-container {
 	min-height: 100%;
   	margin-bottom: -20px; 
@@ -202,19 +227,7 @@ a:active {
   justify-items: center;
 }
 
-#page-container {
-  min-height: 100%;
-    margin-bottom: -20px; 
-}
-
-#page-container:after {
-  content: "";
-  display: block;
-}
-
 footer, #page-container:after {
-  height: 20px;
-  text-align: center;
   padding-top: 340px
 }
 

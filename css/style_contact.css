@@ -22,6 +22,31 @@ header{
 	align-items: center;
 }
 
+.skip a{
+
+  background: white;
+  left: 0;
+  padding: 7px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+
+  /*Your code here*/
+  position: absolute;
+  top: -50px;
+}
+
+.skip a:focus {
+  position: absolute;
+  top: 10px;
+}
+
+
+*:focus {
+  border-top: dashed 1px;
+  border-bottom: dashed 1px;
+}
+
 #page-container {
 	 min-height: 100%;
   	margin-bottom: -20px; 
@@ -77,7 +102,7 @@ a:active {
   text-transform: uppercase; 
 }
 iframe {
-  width: 400px;
+  width: 350px;
   height: 600px; 
 }
 
@@ -91,5 +116,14 @@ iframe {
 
 .nav-links > li {
   margin: 10px;
+}
+
+iframe {
+  width: 600px;
+  height: 800px; 
+}
+
+footer, #page-container:after {
+  padding-top: 210px
 }
 }
