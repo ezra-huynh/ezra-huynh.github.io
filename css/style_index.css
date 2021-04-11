@@ -145,3 +145,23 @@ a:active {
   color: #3D613D !important; 
   text-transform: uppercase; 
 }
+
+
+/*Tablet vertical*/
+@media (min-width: 768px) and (max-width: 1024px) {
+.item {
+  flex: 0 1 35%; 
+  margin: 10px;
+}
+
+.nav_links {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 768px;
+}
+
+.nav-links > li {
+  margin: 10px;
+}
+
+}
