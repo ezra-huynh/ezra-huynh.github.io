@@ -175,7 +175,7 @@ a:active {
 /*Tablet vertical*/
 @media (min-width: 768px) and (max-width: 1024px) {
 .item {
-  flex: 0 1 35%; 
+  flex: 1 0 35%; 
   margin: 10px;
 }
 
